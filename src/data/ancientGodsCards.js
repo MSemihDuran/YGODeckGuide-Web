@@ -25,12 +25,12 @@ export const ancientGodsCards = [
     effectSummary: 'Yıldırım Kutsal Canavarı (4000/4000). Savunmadayken diğer canavarlarınızı korur ve yok ettiği her rakip için 1000 LP doğrudan hasar vurur.'
   },
   {
-    name: 'Hamon, Lord of Striking Thunder - Sacred Beast of Sinful Catastrophe',
-    apiName: 'Hamon, Lord of Striking Thunder',
+    name: 'Calamity of the Sacred Beasts - Hamon, Lord of Striking Thunder',
+    apiName: 'Calamity of the Sacred Beasts - Hamon, Lord of Striking Thunder',
     category: 'Canavar',
-    officialText: '3 Sürekli Sihir feda edilerek veya "Dimension Fusion Destruction" ile çağrılabilir. Sahadayken rakibin Sihir efektlerini geçersiz kılabilir ve rakibin canavarlarının ATK\'sini düşürür. Yok edildiğinde sahadaki tüm açık kartları patlatır.',
-    summonCondition: '3 Sürekli Sihir feda edilerek veya Kutsal Canavar füzyon efektleriyle çağrılır.',
-    effectSummary: 'Hamon\'un günahkar felaket formu; sahayı kontrol eden ve öldüğünde rakip sahasını temizleyen gök gürültüsü efendisi.'
+    officialText: 'Normal Çağrılamaz/Kapalı Konamaz. Bir "Sacred Beast" kartının efektiyle Özel Çağrılmalıdır. Bu kartı elinizden gösterebilirsiniz; destenizden 1 "Sacred Beast" Sihir kartını elinize ekleyin, ardından 1 kart atın. Bu efekti turda sadece 1 kez kullanabilirsiniz. Turda 1 kez, rakibinizin Mezarlığına bir canavar gönderilirse: Rakibinize 1000 hasar verin. Bu kart savaş veya kart efektiyle yok edilirse: Bu efekti çalıştırabilirsiniz; bu tur hiç hasar almazsınız.',
+    summonCondition: 'Bir "Sacred Beast" kartı efektiyle Özel Çağrılır (Seviye 10, 4000/4000).',
+    effectSummary: 'Elden gösterilerek desteden Kutsal Canavar Büyüsü aratır. Rakibin mezara giden her canavarı için 1000 hasar vurur ve patlatılırsa o tur alınan tüm hasarları sıfırlar.'
   },
   {
     name: 'Raviel, Lord of Phantasms',
@@ -49,12 +49,12 @@ export const ancientGodsCards = [
     effectSummary: 'Raviel\'in gücünü anında 8000 ATK\'ye katlayan ve tüm rakip ordusuna saldırmasını sağlayan tek vuruşluk (OTK) gizli silah.'
   },
   {
-    name: 'Raviel, Lord of Phantasms - Sacred Beast of Endless Eternity',
-    apiName: 'Raviel, Lord of Phantasms',
+    name: 'Infinity of the Sacred Beasts - Raviel, Lord of Phantasms',
+    apiName: 'Infinity of the Sacred Beasts - Raviel, Lord of Phantasms',
     category: 'Canavar',
-    officialText: 'Sonsuzluk Kutsal Canavarı formu. Sahadaki İblis canavarlarının enerjisini toplayarak rakibin Özel Çağrılarına müdahale eder ve rakip sahaya canavar indirdiğinde onları yok edip hasar verir.',
-    summonCondition: 'Kutsal Canavar kartları ve feda yöntemleriyle sahaya gelir.',
-    effectSummary: 'Raviel\'in ebedi formu; rakip özel çağrılarına karşı yıkıcı bir tehdit oluşturur.'
+    officialText: 'Normal Çağrılamaz/Kapalı Konamaz. Bir "Sacred Beast" kartının efektiyle Özel Çağrılmalıdır. Bu kartı elinizden gösterebilirsiniz; destenizden "Infinity of the Sacred Beasts - Raviel, Lord of Phantasms" hariç 1 "Sacred Beast" canavarını elinize ekleyin, ardından 1 kart atın. Bu efekti turda sadece 1 kez kullanabilirsiniz. Turda 1 kez (Hızlı Efekt): Sahanızdaki diğer 2 "Sacred Beast" canavarını Feda edebilirsiniz; rakibinizin kontrol ettiği tüm canavarları yok edin ve yok edilen her canavar için bu kart 1000 ATK kazanır.',
+    summonCondition: 'Bir "Sacred Beast" kartı efektiyle Özel Çağrılır (Seviye 10, 4000/4000).',
+    effectSummary: 'Elden gösterilerek desteden Kutsal Canavar aratır (el tazeler). Hızlı efektle sahadaki 2 Kutsal Canavarı feda edip rakibin tüm canavarlarını yok eder ve yok edilen her kart için 1000 ATK kazanır.'
   },
   {
     name: 'Uria, Lord of Searing Flames',
@@ -65,12 +65,12 @@ export const ancientGodsCards = [
     effectSummary: 'Ateş Kutsal Canavarı. Mezardaki her Sürekli Tuzak başına 1000 ATK kazanır ve rakibin kapalı büyü/tuzaklarını yanıt verilemez şekilde patlatır.'
   },
   {
-    name: 'Uria, Lord of Searing Flames - Sacred Beast of Cataclysmic Fire',
-    apiName: 'Uria, Lord of Searing Flames',
+    name: 'Inferno of the Sacred Beasts - Uria, Lord of Searing Flames',
+    apiName: 'Inferno of the Sacred Beasts - Uria, Lord of Searing Flames',
     category: 'Canavar',
-    officialText: 'Katastrofik Ateş Uria formu. Sahadaki tüm tuzakların enerjisini çekerek ATK değerini devasa seviyelere taşır ve saldırdığında rakip mezarlığını yakarak doğrudan LP hasarı verir.',
-    summonCondition: 'Tuzak kartları veya Kutsal Canavar özel yöntemleriyle sahaya gelir.',
-    effectSummary: 'Uria\'nın felaket formu; tuzak temelli yüksek saldırı ve yok ediş gücüne sahiptir.'
+    officialText: 'Normal Çağrılamaz/Kapalı Konamaz. Bir "Sacred Beast" kartının efektiyle Özel Çağrılmalıdır. Bu kartı elinizden gösterebilirsiniz; destenizden 1 "Sacred Beast" Tuzak kartını elinize ekleyin, ardından 1 kart atın. Bu efekti turda sadece 1 kez kullanabilirsiniz. İki oyuncunun Mezarlığındaki her Tuzak kartı için 1000 ATK/DEF kazanır. Turda 1 kez (Hızlı Efekt): Sahadaki 1 Sihir/Tuzak kartını hedef alıp yok edebilirsiniz; bu efektin aktivasyonuna hiçbir oyuncu yanıt veremez.',
+    summonCondition: 'Bir "Sacred Beast" kartı efektiyle Özel Çağrılır (Seviye 10).',
+    effectSummary: 'Elden gösterilerek desteden Kutsal Canavar Tuzağı aratır. Mezarlıklardaki her tuzak için 1000 ATK kazanır ve hızlı efektle rakip büyü/tuzaklarını yanıtsız patlatır.'
   },
   {
     name: 'Holactie the Creator of Light',
@@ -82,19 +82,19 @@ export const ancientGodsCards = [
   },
   {
     name: 'Martyr of the Sacred Beasts',
-    apiName: 'Phantasmal Martyrs',
+    apiName: 'Martyr of the Sacred Beasts',
     category: 'Canavar',
-    officialText: 'Kutsal canavarlar için feda materyali sağlayan destek canavarı. Mezarlığa gönderildiğinde el veya sahadan Kutsal Canavar çağırma adımlarını hızlandırır.',
-    summonCondition: 'Normal Çağrı veya Özel Çağrı yapılabilir.',
-    effectSummary: 'Kutsal Canavarların sahaya inebilmesi için feda ve saha desteği sağlayan yardımcı canavar.'
+    officialText: 'Bu kart Normal veya Özel Çağrılırsa: Destenizden 1 "Sacred Beast" Alan Büyüsünü veya 1 "Sacred Beast" Sürekli Büyü/Tuzağını sahanıza açık olarak koyabilirsiniz. Başka bir "Sacred Beast" canavarı kontrol ediyorsanız: Elinizden, destenizden ve/veya Mezarlığınızdan 2 "Martyr of the Sacred Beasts" Özel Çağırabilirsiniz. Rakibin Son Aşamasında, Mezarlığınızda bu kart ve Seviye 10 bir "Sacred Beast" canavarı varsa: Bu kartı elinize ekleyebilirsiniz. "Martyr of the Sacred Beasts"in her bir efektini turda sadece 1 kez kullanabilirsiniz.',
+    summonCondition: 'Normal Çağrı veya kart efektleriyle Özel Çağrılabilir (Seviye 1).',
+    effectSummary: 'Sahaya indiğinde desteden Kutsal Canavar Alan Büyüsü veya Sürekli Büyü/Tuzak açar. Sahada başka Kutsal Canavar varken 2 kopya daha çağırıp feda hazırlar; mezardan ele geri döner.'
   },
   {
-    name: 'The Orchestrator of the Sacred Beasts',
-    apiName: 'Dark Beckoning Beast',
+    name: 'Summoner of the Sacred Beasts',
+    apiName: 'Summoner of the Sacred Beasts',
     category: 'Canavar',
-    officialText: 'Kutsal canavarların sahadaki stratejisini yöneten düzenleyici canavar. Sihir/tuzak arar ve Kutsal Canavarların efektlerini koruma kalkanına alır.',
-    summonCondition: 'Normal Çağrı veya Özel Çağrı yapılabilir.',
-    effectSummary: 'Kutsal canavarların çağırma sürecini hızlandıran ve sahadaki büyülerle sinerji kuran usta yardımcı.'
+    officialText: 'Elinizden gösterip 1 kart atarak: Elinizden Seviye 8 olmayan 1 "Sacred Beast" canavarını Savunma Konumunda Özel Çağırabilirsiniz. Elinizden 1 kart atarak: Elinizden veya Mezarlığınızdan Seviye 8 olmayan 1 "Sacred Beast" canavarını Savunma Konumunda Özel Çağırabilirsiniz. Bu kartı Mezarlığınızdan oyundan çıkararak: Mezarlığınızdan Seviye 8 olmayan 1 "Sacred Beast" canavarını Savunma Konumunda Özel Çağırabilirsiniz. "Summoner of the Sacred Beasts"in her bir efektini turda sadece 1 kez kullanabilirsiniz.',
+    summonCondition: '2 Feda ile Normal Çağrılabilir veya kart efektleriyle Özel Çağrılır (Seviye 8, 2300/3000).',
+    effectSummary: 'Elden veya mezarlıktan Kutsal Canavarları (Raviel, Hamon, Uria) savunmada bedavaya sahaya fırlatır; mezardan kendini sürgün ederek de diriltme yapar.'
   },
   {
     name: 'The Wicked Avatar',
@@ -156,11 +156,11 @@ export const ancientGodsCards = [
   },
   {
     name: 'Fallen Paradise of the Sacred Beasts',
-    apiName: 'Fallen Paradise',
+    apiName: 'Fallen Paradise of the Sacred Beasts',
     category: 'Sihir',
-    officialText: 'Kontrolünüzdeki "Uria, Lord of Searing Flames", "Hamon, Lord of Striking Thunder", "Raviel, Lord of Phantasms" veya "Armityle the Chaos Phantasm" rakibinizin kart efektleriyle hedef alınamaz ve onlar rakibinizin kart efektleriyle yok edilemez. Kontrolünüzde bu canavarlardan biri varsa: Turda 1 kez, destenizden 2 kart çekebilirsiniz.',
+    officialText: 'Ana Aşamanız sırasında turda 3 keze kadar: Elinizden ve/veya açık sahanızdan aynı türde (Canavar, Büyü veya Tuzak) 3 kartı Mezarlığa gönderip elinizden, destenizden, mezarlığınızdan veya sürgünden 1 "Sacred Beast" canavarı Özel Çağırabilirsiniz ve bu çağrılan canavar rakibin çalıştırdığı Büyü/Tuzak efektlerinden ETKİLENMEZ. Orijinal Seviyesi 10 olan bir "Sacred Beast" kontrol ediyorsanız: Turda 1 kez 2 kart çekebilirsiniz.',
     summonCondition: 'Alan Büyüsü (Field Spell).',
-    effectSummary: 'Kutsal Canavarlarınıza mutlak hedef alınamazlık ve patlamazlık koruması verir; her tur bedavaya 2 taze kart çektirir.'
+    effectSummary: 'Aynı türden 3 kart atarak turda 3 keze kadar elden/desteden/mezardan Kutsal Canavar çağırır ve onları rakibin büyü/tuzaklarına karşı dokunulmaz yapar; ayrıca her tur 2 kart çektirir.'
   },
   {
     name: "Joker's Straight",
@@ -187,12 +187,12 @@ export const ancientGodsCards = [
     effectSummary: 'Sahaya tek seferde 3 adet token çağırarak Raviel\'in çağrılması veya diğer büyük feda maliyetleri için zemin hazırlar.'
   },
   {
-    name: 'Skyfire of the Sacred Beast',
-    apiName: 'Cerulean Skyfire',
+    name: 'Sacred Beasts Thunderclap',
+    apiName: 'Sacred Beasts Thunderclap',
     category: 'Sihir',
-    officialText: 'Kutsal Canavar Hamon\'un gökyüzü ateş gücünü açığa çıkarır. Rakibin sahadaki kartlarını ateşe vererek yok eder ve sahadaki Kutsal Canavarların saldırı gücünü artırır.',
-    summonCondition: 'Sürekli Büyü.',
-    effectSummary: 'Kutsal Canavar Hamon ve müttefiklerine ekstra saldırı gücü ve yıkıcı büyü desteği sağlar.'
+    officialText: 'Ana Aşamanız sırasında: Elinizden, Destenizden ve/veya Mezarlığınızdan 2 adet "Sacred Beasts Thunderclap" kartını sahanıza açık olarak koyabilir, ardından elinizdeki 1 Seviye 10 "Sacred Beast" canavarını gösterip Destenizden 1 "Fallen Paradise of the Sacred Beasts" kartını Alan Bölgenize açık olarak koyabilirsiniz. Rakibin Son Aşamasında bu kart Mezarlığınızdaysa: Bu kartı elinize ekleyebilirsiniz. Her efekti turda sadece 1 kez kullanabilirsiniz.',
+    summonCondition: 'Sürekli Büyü (Continuous Spell).',
+    effectSummary: 'Ana Aşamada desteden anında 2 kopya daha sahaya koyarak Hamon için gereken 3 Sürekli Büyüyü tek kartla tamamlar ve Fallen Paradise alan büyüsünü desteden bedavaya açar.'
   },
   {
     name: 'Soul Crossing',
@@ -253,20 +253,20 @@ export const ancientGodsCards = [
     effectSummary: 'Sahadaki Kutsal Canavar sayısına göre rakibin canavar efektlerini tamamen silen ve mezarını sürgüne yollayan nihai kilit tuzağı.'
   },
   {
-    name: 'Destruction Chant of the Sacred Beast',
-    apiName: 'Awakening of the Sacred Beasts',
+    name: 'Sacred Beasts Combined Assault',
+    apiName: 'Sacred Beasts Combined Assault',
     category: 'Tuzak',
-    officialText: 'Kutsal canavarların yıkım ilahisi. Sahada bir Kutsal Canavar varken çalıştırılır; rakibin kontrol ettiği kartları hedefler ve yok ederek rakibe doğrudan yakma hasarı uygular.',
-    summonCondition: 'Normal Tuzak.',
-    effectSummary: 'Rakibin sahasını patlatan ve can puanlarını eriten antik yıkım tuzağı.'
+    officialText: 'Elinizden veya Mezarlığınızdan 1 "Sacred Beast" canavarını Savunma Konumunda Özel Çağırın, ardından orijinal Seviyesi 10 olan 2 veya daha fazla "Sacred Beast" canavarı kontrol ediyorsanız: Rakibinizin kontrol ettiği 1 açık kartın efektlerini geçersiz kılabilir, ve ederseniz onu yok edebilirsiniz. Bu kartı Mezarlığınızdan oyundan çıkararak: Elinizden veya sahanızdaki canavarları kullanarak Ekstra Destenizden 1 "Phantasm" Fusion Canavarını Fusion Çağırın. Her efekti turda sadece 1 kez kullanabilirsiniz.',
+    summonCondition: 'Normal Tuzak kartı.',
+    effectSummary: 'Elden veya mezardan Kutsal Canavar canlandırır, sahada 2 Seviye 10 canavar varken rakibin açık kartını geçersiz kılıp patlatır; mezardan sürgün edilerek Armityle füzyonu yaptırır.'
   },
   {
-    name: 'Divine Abyss of the Sacred Beast',
-    apiName: 'Awakening of the Sacred Beasts',
+    name: 'Abyss of the Sacred Beasts',
+    apiName: 'Abyss of the Sacred Beasts',
     category: 'Tuzak',
-    officialText: 'Kutsal canavarların ilahi uçurumu. Rakibin saldırılarını yutarak Kutsal Canavarlarınızın defansını aşılmaz bir kalkana dönüştürür ve saldıran canavarı yok eder.',
-    summonCondition: 'Normal Tuzak.',
-    effectSummary: 'Rakip saldırılarını engelleyip saldıranları uçuruma gönderen ilahi tuzak.'
+    officialText: 'Kontrolünüzdeki 3 açık "Abyss of the Sacred Beasts" kartını (bu kart dâhil) Mezarlığa gönderip rakibinizin kontrol ettiği açık 1 canavarı hedef alabilirsiniz; onu kapalı Savunma Konumuna çevirin. Ana Aşama sırasında: Elinizden, Destenizden ve/veya Mezarlığınızdan 2 adet "Abyss of the Sacred Beasts" kartını sahanıza açık olarak koyabilirsiniz. Rakibin Son Aşamasında bu kart Mezarlığınızdaysa: Bu kartı destenizin en altına koyabilirsiniz. Her efekti turda sadece 1 kez kullanabilirsiniz.',
+    summonCondition: 'Sürekli Tuzak (Continuous Trap).',
+    effectSummary: 'Ana Aşamada desteden ve elden anında 2 kopya daha açarak Uria için gereken 3 Sürekli Tuzağı tek başına tamamlar; rakip canavarı kapatabilir ve mezardan desteye döner.'
   },
   {
     name: 'Hyper Blaze',
