@@ -478,6 +478,71 @@ export const DECK_COMBOS = {
       ],
       result: 'Rakibin hiçbir şansı kalmadan tek turda 15000+ doğrudan hasar vurularak oyun saniyeler içinde kazanılır (OTK).'
     }
+  ],
+
+  // ==================== EKSTRALAR DESTESİ KOMBOLARI ====================
+  'ekstralar': [
+    {
+      id: 'ex-1',
+      title: 'Örnek Kombo 1: Legend of Heart ile 3 Efsanevi Şövalye ve Timaeus the Knight of Destiny',
+      cardsNeeded: ['Legend of Heart', '1 Savaşçı Canavar', '3 Efsanevi Ejderha Büyüsü (veya Mezardayken)'],
+      difficulty: 'İleri Seviye / Destansı',
+      steps: [
+        '1000 LP ödeyip sahadaki Savaşçı canavarınızı feda ederek "Legend of Heart"ı aktifleştirin.',
+        'Elinizden veya mezarlığınızdan "The Eye of Timaeus", "The Fang of Critias" ve "The Claw of Hermos"u banish edin.',
+        'Destenizden 3 efsanevi şövalyeyi ("Legendary Knight Timaeus", "Critias", "Hermos") aynı anda sahaya indirin.',
+        'Sahadaki 3 şövalyeyi birleştirerek kart efektlerinden etkilenmeyen ve sahadaki en yüksek ATK\'ye eşitlenen nihai patron "Timaeus the Knight of Destiny"yi çağırın!'
+      ],
+      result: 'Kart efektlerinden etkilenmeyen, savaş hasarı aldırmayan ve yok edildiğinde 3 şövalyeyi yeniden sahaya getiren ölümsüz birleşik güç.'
+    },
+    {
+      id: 'ex-2',
+      title: 'Örnek Kombo 2: The Fang of Critias ve Mirror Force ile Tüm Rakip Sahayı Silme',
+      cardsNeeded: ['The Fang of Critias (veya Critias the United Dragon)', 'Mirror Force'],
+      difficulty: 'Kolay / Etkili',
+      steps: [
+        '"Critias the United Dragon"ı elden özel çağırıp desteden "Mirror Force" set edin veya "The Fang of Critias" ile elden/sahadan Mirror Force\'u mezara gönderin.',
+        'Ekstra Destenizden "Mirror Force Dragon"ı Özel Çağırın.',
+        'Rakip herhangi bir canavarınıza saldırdığında veya bir kart efektiyle hedef aldığında Hızlı Efektini tetikleyin.'
+      ],
+      result: 'Rakibin sahasındaki tüm açık ve kapalı kartlar tek hamlede tamamen yok edilerek rakip savunması sıfırlanır.'
+    },
+    {
+      id: 'ex-3',
+      title: 'Örnek Kombo 3: Guardian Eatos ve Dreadscythe ile Yıkıcı Saldırı Gücü',
+      cardsNeeded: ['Guardian Eatos', 'Celestial Sword - Eatos (veya Dreadscythe)'],
+      difficulty: 'Orta',
+      steps: [
+        'Mezarlığınızda canavar yokken "Guardian Eatos"u elinizden bedelsiz Özel Çağırın ve "Celestial Sword - Eatos" donatın.',
+        'Donanımı mezara yollayarak rakip mezarlıktan 3 canavarı banish edip Eatos\'un ATK\'sini 4000\'e çıkarın.',
+        'Eatos mezara gittiğinde desteden "Guardian Dreadscythe" çağırıp doğrudan "Reaper Scythe - Dreadscythe" kuşanın.'
+      ],
+      result: 'İki mezarlıktaki her canavar başına +500 ATK kazanan ve yok edilmeye karşı elden kart atarak sahada kalan durdurulamaz bir patron.'
+    },
+    {
+      id: 'ex-4',
+      title: 'Örnek Kombo 4: Orichalcos Deuteros & Tritos ile Tam Saha Dokunulmazlığı',
+      cardsNeeded: ['The Seal of Orichalcos', 'Orichalcos Deuteros', 'Orichalcos Tritos'],
+      difficulty: 'Orta',
+      steps: [
+        '"The Seal of Orichalcos" sahadayken "Orichalcos Deuteros"u devreye sokarak her tur canavar sayınız x 500 LP kazanın.',
+        'Sahadaki Deuteros\'u mezara göndererek "Orichalcos Tritos"u kurun.',
+        'Tritos ile dost canavarlarınızı hedef alan rakip büyü/tuzaklarını bedelsiz iptal edip yok edin.'
+      ],
+      result: 'Rakip büyü ve tuzaklarını engelleyen, canavar saldırılarını savuşturan ve her tur can puanınızı dolduran sarsılmaz Orichalcos kalkanı.'
+    },
+    {
+      id: 'ex-5',
+      title: 'Örnek Kombo 5: Egyptian, The Ultimate Lord Of Duel Monster ile Tek Vuruşta Zafer',
+      cardsNeeded: ['Egyptian, The Ultimate Lord Of Duel Monster', 'Mezarlıkta/Sahada Ra + Obelisk + Slifer'],
+      difficulty: 'İleri Seviye / Tek Hamle',
+      steps: [
+        '3 Mısır Tanrısını ("Winged Dragon of Ra", "Obelisk The Tormentor", "Slifer The Sky Dragon") oyundan çıkarın.',
+        'Çağrısı engellenemeyen "Egyptian, The Ultimate Lord Of Duel Monster"ı sahaya indirin.',
+        'Sahadaki tüm diğer kartları oyundan çıkarıp 100.000 ATK ile doğrudan saldırı yapın.'
+      ],
+      result: 'Kart efektlerinden etkilenmeyen, tek bir doğrudan saldırısıyla düelloyu kazandıran mutlak tanrısal güç.'
+    }
   ]
 };
 
@@ -489,6 +554,11 @@ export function getCombosForDeck(deckId, deckName = '') {
 
   const normalizedName = (deckName || '').toLowerCase();
   const normalizedId = (deckId || '').toLowerCase();
+
+  // Ekstralar kontrolü
+  if (normalizedId === 'ekstralar' || normalizedName.includes('ekstra') || normalizedName.includes('extra')) {
+    return DECK_COMBOS['ekstralar'] || [];
+  }
 
   // Toon GODs kontrolü (önce yapılmalı ki düz toon ile karışmasın)
   if (
