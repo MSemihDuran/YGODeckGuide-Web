@@ -56,6 +56,16 @@ export const CUSTOM_CARD_IMAGES = {
   "blue-eyes ultimate toon dragon": "/assets/custom_cards/blue_eyes_ultimate_toon_dragon.jpg",
   "toon bickuribox": "/assets/custom_cards/toon_bickuribox.jpg",
   "toon eyes-restrict": "/assets/custom_cards/toon_eyes_restrict.jpg",
+  "dark time wizard": "/assets/custom_cards/dark_time_wizard.jpg",
+  "graceful & skull dice": "/assets/custom_cards/graceful_and_skull_dice.jpg",
+  "phantasmal sacred beasts of chaos": "/assets/custom_cards/phantasmal_sacred_beasts_of_chaos.png",
+  "the immortal sun god": "/assets/custom_cards/the_immortal_sun_god.jpg",
+  "the sun god leading down into darkness": "/assets/custom_cards/the_sun_god_leading_down_into_darkness.jpg",
+  "the sun god's steelcage - lava golem": "/assets/custom_cards/the_sun_god_s_steelcage___lava_golem.jpg",
+  "the sun god's destructor - makyura": "/assets/custom_cards/the_sun_god_s_destructor___makyura.jpg",
+  "the sun god's poet - helpoemer": "/assets/custom_cards/the_sun_god_s_poet___helpoemer.jpg",
+  "the sun god's terror machine - gil garth": "/assets/custom_cards/the_sun_god_s_terror_machine___gil_garth.jpg",
+  "the sun god's torture device - viser des shock": "/assets/custom_cards/the_sun_god_s_torture_device___viser_des_shock.jpg",
 };
 
 export function getCustomCardImage(cardName) {
