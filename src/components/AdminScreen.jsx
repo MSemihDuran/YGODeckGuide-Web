@@ -23,6 +23,7 @@ import {
   ArrowLeft
 } from 'lucide-react';
 import { cardDatabase, deckInfo } from '../data/bulkUploadData';
+import { getCustomCardImage } from '../data/customCardImages';
 
 export default function AdminScreen({ onBack }) {
   const [mode, setMode] = useState('menu'); // 'menu' | 'addDeck' | 'cardForm' | 'editSelectDeck' | 'editSelectCard'
@@ -82,7 +83,34 @@ export default function AdminScreen({ onBack }) {
 
     const reader = new FileReader();
     reader.onload = (event) => {
-      setImageUri(event.target.result);
+      const img = new Image();
+      img.onload = () => {
+        const canvas = document.createElement('canvas');
+        const MAX_WIDTH = 600;
+        const MAX_HEIGHT = 860;
+        let width = img.width;
+        let height = img.height;
+
+        if (width > height) {
+          if (width > MAX_WIDTH) {
+            height = Math.round((height * MAX_WIDTH) / width);
+            width = MAX_WIDTH;
+          }
+        } else {
+          if (height > MAX_HEIGHT) {
+            width = Math.round((width * MAX_HEIGHT) / height);
+            height = MAX_HEIGHT;
+          }
+        }
+
+        canvas.width = width;
+        canvas.height = height;
+        const ctx = canvas.getContext('2d');
+        ctx.drawImage(img, 0, 0, width, height);
+        const compressedDataUrl = canvas.toDataURL('image/jpeg', 0.85);
+        setImageUri(compressedDataUrl);
+      };
+      img.src = event.target.result;
     };
     reader.readAsDataURL(file);
   };
@@ -592,7 +620,24 @@ export default function AdminScreen({ onBack }) {
                   </button>
                 </div>
               ) : (
-                <span className="text-xs text-slate-500">Özel görsel seçilmediyse YGOPRODeck API'den otomatik çekilir.</span>
+                (() => {
+                  const fallbackCustom = getCustomCardImage(cardName) || getCustomCardImage(cardApiName);
+                  if (fallbackCustom) {
+                    return (
+                      <div className="flex items-center gap-2">
+                        <img
+                          src={fallbackCustom}
+                          alt="Mevcut Özel Görsel"
+                          className="w-12 h-16 object-cover rounded-lg border border-slate-600 shadow opacity-80"
+                        />
+                        <span className="text-[11px] text-slate-400">Varsayılan Özel Kart Görseli Aktif (Değiştirmek için dosya seçin)</span>
+                      </div>
+                    );
+                  }
+                  return (
+                    <span className="text-xs text-slate-500">Özel görsel seçilmediyse YGOPRODeck API'den otomatik çekilir.</span>
+                  );
+                })()
               )}
             </div>
           </div>

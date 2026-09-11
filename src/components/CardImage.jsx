@@ -4,20 +4,25 @@ import { getCustomCardImage } from '../data/customCardImages';
 const imageCache = {};
 
 export default function CardImage({ item, className = '', imgClassName = '' }) {
-  const customImg = getCustomCardImage(item?.name) || getCustomCardImage(item?.apiName);
+  const hasCustomUrl = Boolean(item?.imageUrl && item.imageUrl.trim() !== '');
+  const customImg = !hasCustomUrl ? (getCustomCardImage(item?.name) || getCustomCardImage(item?.apiName)) : null;
+
   const [src, setSrc] = useState(
-    item?.imageUrl || (item?.apiName ? imageCache[item.apiName] : null) || null
+    hasCustomUrl
+      ? item.imageUrl
+      : (customImg || (item?.apiName ? imageCache[item.apiName] : null) || null)
   );
-  const [loading, setLoading] = useState(!customImg && !src);
+  const [loading, setLoading] = useState(!hasCustomUrl && !customImg && !src);
 
   useEffect(() => {
-    if (customImg) {
+    if (item?.imageUrl && item.imageUrl.trim() !== '') {
+      setSrc(item.imageUrl);
       setLoading(false);
       return;
     }
 
-    if (item?.imageUrl && item.imageUrl.trim() !== '') {
-      setSrc(item.imageUrl);
+    if (customImg) {
+      setSrc(customImg);
       setLoading(false);
       return;
     }
@@ -48,7 +53,7 @@ export default function CardImage({ item, className = '', imgClassName = '' }) {
     }
   }, [item?.imageUrl, item?.apiName, item?.name, customImg]);
 
-  const displaySrc = customImg || src || 'https://via.placeholder.com/300x430/1e293b/818cf8?text=Yukleniyor';
+  const displaySrc = src || customImg || 'https://via.placeholder.com/300x430/1e293b/818cf8?text=Kart';
 
   return (
     <div className={`relative overflow-hidden flex items-center justify-center ${className}`}>

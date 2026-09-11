@@ -378,6 +378,51 @@ export default function DeckScreen({ deckId, deckName }) {
               </div>
             )}
 
+            {/* Sıralı Kart Akışı (Kart 1 ➔ Kart 2 ➔ Kart 3) */}
+            {combo.sequence && combo.sequence.length > 0 && (
+              <div className="bg-slate-900/60 p-3 rounded-2xl border border-slate-800/80">
+                <p className="text-slate-400 text-xs font-semibold mb-2.5 flex items-center gap-1.5">
+                  <span>🔄</span> Sıralı Kart Akışı / Hamle Sırası:
+                </p>
+                <div className="flex items-center gap-2 overflow-x-auto pb-1 px-1 no-scrollbar">
+                  {combo.sequence.map((cardName, sIdx) => {
+                    const cardItem = cards.find(
+                      c => c.name?.toLowerCase() === cardName.toLowerCase()
+                    ) || { name: cardName, apiName: cardName };
+                    return (
+                      <React.Fragment key={sIdx}>
+                        <div
+                          onClick={() => {
+                            if (cardItem.id) setSelectedCard(cardItem);
+                          }}
+                          className={`flex flex-col items-center shrink-0 w-16 group ${
+                            cardItem.id ? 'cursor-pointer' : ''
+                          }`}
+                          title={`${cardName} (Detaylar için tıklayın)`}
+                        >
+                          <div className="w-12 h-16 rounded-lg overflow-hidden bg-slate-950 border border-slate-700/80 shadow-md group-hover:border-amber-400 transition-colors">
+                            <CardImage
+                              item={cardItem}
+                              className="w-full h-full"
+                              imgClassName="group-hover:scale-105 transition-transform duration-200"
+                            />
+                          </div>
+                          <span className="text-[10px] text-slate-300 font-medium truncate w-full text-center mt-1 group-hover:text-amber-300 transition-colors">
+                            {cardName}
+                          </span>
+                        </div>
+                        {sIdx < combo.sequence.length - 1 && (
+                          <span className="text-amber-400 text-base font-black shrink-0 -mt-4 opacity-80">
+                            ➔
+                          </span>
+                        )}
+                      </React.Fragment>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
             {/* Adım Adım Hamleler */}
             <div className="space-y-2.5 pt-1">
               <p className="text-slate-400 text-xs font-semibold">Adım Adım Hamleler:</p>
