@@ -373,5 +373,87 @@ export const ancientGodsCards = [
     officialText: 'Rakibiniz sizden daha fazla canavar kontrol ediyorsa veya bir İlahi-Canavar kontrol ediyorsanız bu kartı ELİNİZDEN çalıştırabilirsiniz. Sahada ve mezarlığınızdaki İlahi-Canavar sayısı kadar sahadaki kartları seçip yok edin, ardından şu efektlerden 1\'ini uygulayın: • Rakip tur sonuna kadar canavarlarını Saldırı Konumunda çağırmak zorundadır. • Sahaya 2 "Egyptian God Servant Token" (Seviye 4/ATK 0/DEF 0) çağırın. • Sahadaki tüm canavarların kontrolünü gerçek sahiplerine iade edin.',
     summonCondition: 'Tanrı kontrol ediyorsanız veya rakip sayıca üstünse doğrudan elden çalıştırılabilir.',
     effectSummary: 'Doğrudan elden oynanabilen, sahadaki kartları topluca yok eden ve duruma göre token çağıran veya pozisyonları kilitleyen öfke tuzağı.'
+  },
+
+  // --- GÜNEŞ TANRISI (SUN GOD) SERİSİ ---
+  {
+    name: "The Sun God's Poet - Helpoemer",
+    apiName: '',
+    category: 'Canavar',
+    officialText: 'Elinizden başka 1 kart atarak bu kartı elinizden Özel Çağırabilirsiniz. Bu kart Özel Çağrılırsa: Destenizden "The Sun God\'s Poet - Helpoemer" hariç 1 "Sun God" kartını elinize ekleyin; ardından rakibinizin LP\'si sizinkinden en az 2000 fazlaysa rakibin elinden 1 rastgele kartı mezara atabilirsiniz. Turun Son Aşamasında, eğer bu tur mezarlığınıza "The Immortal Sun God" gönderildiyse: Bu kartı mezarlıktan elinize geri ekleyebilirsiniz. Her bir efektini turda bir kez kullanabilirsiniz. ATK/ 2000 DEF/ 1400.',
+    summonCondition: 'Elden 1 kart atılarak Özel Çağrılır (Seviye 5 KARANLIK İblis).',
+    effectSummary: 'Elden fırlayarak desteden herhangi bir "Sun God" kartını (Büyü/Tuzak/Canavar) arar, rakibin elini eksiltir ve mezardan sonsuz döngüyle geri döner.'
+  },
+  {
+    name: "The Sun God's Destructor - Makyura",
+    apiName: '',
+    category: 'Canavar',
+    officialText: 'Bu kart Normal veya Özel Çağrıldığında, ya da elden veya sahadan Mezarlığa gönderildiğinde: Elinizden veya destenizden 1 "Sun God" Büyü/Tuzak kartını sahaya kapalı koyabilirsiniz; koyduğunuz kart bir Tuzak veya Hızlı Büyü ise AYNI TUR ÇALIŞTIRILABİLİR! Turun Son Aşamasında, eğer bu tur mezara "The Immortal Sun God" gittiyse: Bu kartı mezardan elinize geri ekleyebilirsiniz. Her efektini turda bir kez kullanabilirsiniz. ATK/ 1600 DEF/ 1200.',
+    summonCondition: 'Normal Çağrı, Özel Çağrı veya mezara gitme durumunda tetiklenir (Seviye 4).',
+    effectSummary: 'Sahaya indiğinde veya mezara düştüğünde desteden Tuzak veya Hızlı Büyü kurar ve beklemeden aynı tur hemen açtırır (Tuzak hızlandırıcı).'
+  },
+  {
+    name: "The Sun God's Terror Machine - Gil Garth",
+    apiName: '',
+    category: 'Canavar',
+    officialText: 'Elinizdeyken sahada bir "Sun God" kartı kontrol ediyorsanız: Bu kartı elden Özel Çağırabilirsiniz. Bu kartı Feda edip iki oyuncunun mezarlığındaki 1 diğer kartı hedef alabilirsiniz; destenizden 1 "Sun God" kartını mezara gönderin, ve gönderirseniz hedeflenen kartı destenin en altına yollayın. Turun Son Aşamasında, eğer bu tur mezara "The Immortal Sun God" gittiyse: Bu kartı mezardan elinize geri ekleyebilirsiniz. ATK/ 1800 DEF/ 1200.',
+    summonCondition: 'Sahada Sun God kartı varken elden bedava Özel Çağrılır (Seviye 4).',
+    effectSummary: 'Bedava sahaya iner, kendini feda ederek desteden mezara kart hazırlar (Makyura veya kombo parçaları) ve rakip mezarındaki kritik kartı destenin altına kilitler.'
+  },
+  {
+    name: "The Sun God's Torture Device - Viser Des Shock",
+    apiName: '',
+    category: 'Canavar',
+    officialText: 'Savaşta yok edilemez. "The Sun God\'s Torture Device - Viser Des Shock"ın her bir efektini turda sadece bir kez kullanabilirsiniz. Rakibinizin mezarlığına bir canavar gönderildiğinde ve siz bir "Sun God" kartı kontrol ediyorsanız (Hasar Adımında bile): Bu kartı elden Özel Çağırabilirsiniz, ve çağırırsanız sahadaki başka 1 kartı ele/Ekstra Desteye geri gönderin, ardından rakibinize 800 hasar verin. Son Aşamada "The Immortal Sun God" mezara gittiyse bu kartı mezardan elinize ekleyebilirsiniz. ATK/ 800 DEF/ 1200.',
+    summonCondition: 'Rakibin canavarı mezara gittiğinde elden Hızlı Efektle fırlar (Seviye 4 Makine).',
+    effectSummary: 'Savaşta yok edilemez. Rakip canavar mezara gittiği an sahaya inip sahadaki herhangi bir rakip kartını ele/ekstra desteye fırlatır ve 800 hasar vurur.'
+  },
+  {
+    name: 'The Sun God Leading Down into Darkness',
+    apiName: '',
+    category: 'Sihir',
+    officialText: 'Elinizden, Destenizden veya açık sahanızdan 1 "The Winged Dragon of Ra" canavarını Mezarlığa göndererek bu kartı aktifleştirin. Bu kartın açıldığı tur Ana Aşamanızda: Destenizden 1 "Sun God" canavarını elinize ekleyebilirsiniz. Bir canavar savaşta yok edildiğinde: Kontrol edeni o canavarın orijinal ATK\'si kadar hasar alır, ardından mezarlığınızda "The Winged Dragon of Ra" varsa 1000 LP kazanırsınız. Her efektini turda 1 kez kullanabilirsiniz.',
+    summonCondition: 'Desteden Ra\'yı mezara göndererek açılan Sürekli Büyü (Continuous Spell).',
+    effectSummary: 'Açılışta Ra\'yı doğrudan mezara yollar, desteden Sun God canavarı aratır, savaşta yok olan canavarın sahibine ATK\'si kadar hasar verip size 1000 can doldurur.'
+  },
+  {
+    name: 'The Immortal Sun God',
+    apiName: '',
+    category: 'Sihir',
+    officialText: '(1): Mezarlığınızdan veya sürgünden 1 "The Winged Dragon of Ra" canavarını çağırma koşullarını yok sayarak Özel Çağırın; ardından bu efektle orijinal "The Winged Dragon of Ra" çağırdıysanız, onu Mezarlığa gönderip Ekstra Destenizden 1 "The Winged Dragon of Ra" canavarını ("Sun God of Darkness, The Winged Dragon of Ra") Özel Çağırabilirsiniz! Turun Son Aşamasında bu efektle çağrılan canavarlar mezara gider. (2): Ana Aşamanızda bu kart mezarlıktayken: Elinizden 1 "Sun God" kartı atarak bu kartı elinize geri ekleyebilirsiniz. Her efektini turda 1 kez kullanabilirsiniz.',
+    summonCondition: 'Hızlı Büyü (Quick-Play Spell).',
+    effectSummary: 'Mezardan veya sürgünden Ra\'yı koşulsuz çağırıp anında Ekstra Desteden Karanlık Ra Füzyonuna dönüştürür! Mezardan sonsuz geri alınabilir.'
+  },
+  {
+    name: 'Protector of the Sun God, Egyptian God Slime',
+    apiName: '',
+    category: 'Tuzak',
+    officialText: 'Bu kart çalıştırıldığında bir Canavar Kartı olarak Savunma Konumunda Özel Çağrılabilir (Aqua/SU/Seviye 10/ATK 0/DEF 3000; hâlâ bir Tuzak kartı sayılır). Bu kart bir İlahi Canavarın (DIVINE / Divine-Beast) Feda Çağrısı için tek başına 3 Feda yerine sayılabilir. Rakibiniz diğer canavarlarınızı saldırı veya efekt hedefi olarak seçemez. Sahadaki bir "Sun God" kartı yok edilecekse bunun yerine bu kartı Feda edebilir veya mezarlıktan oyundan çıkarabilirsiniz.',
+    summonCondition: 'Sürekli Tuzak (Continuous Trap).',
+    effectSummary: '3000 DEF\'lik devasa bir canlı kalkan olarak sahaya iner, tek başına Tanrılar için 3 Feda sayılır, rakibin saldırılarını üzerine çeker ve Tanrı kartlarınızı yıkımdan korur.'
+  },
+  {
+    name: 'Reign of the Sun God',
+    apiName: '',
+    category: 'Tuzak',
+    officialText: 'Sahada bir "The Winged Dragon of Ra" canavarı varsa: Sırasıyla şu efektleri uygulayın: • Her iki oyuncunun Mezarlığından 1\'er canavarı sahanıza Özel Çağırın. • Sahada "The Winged Dragon of Ra" varsa, rakibinizin kontrol ettiği TÜM CANAVARLARIN KONTROLÜNÜ ALIN! Bu kartı mezarlıktan sürgün edip sahanızdaki 1 "The Winged Dragon of Ra" canavarını Feda edebilirsiniz; onun sahadaki ATK\'si kadar LP kazanın. "Reign of the Sun God"ın her bir efektini turda sadece 1 kez kullanabilirsiniz.',
+    summonCondition: 'Normal / Sürekli Tuzak (Sahada Ra varken açılır).',
+    effectSummary: 'İki mezardan da canavar diriltir ve RAKİBİN TÜM CANAVARLARINI ÇALARAK SAHANIZA GEÇİRİR! Mezardan sürgün edildiğinde Ra\'nın gücünü yaşam puanına çevirir.'
+  },
+  {
+    name: "The Sun God's Steelcage - Lava Golem",
+    apiName: '',
+    category: 'Ekstra Deste',
+    officialText: '[İblis / Füzyon / Efekt] Seviye 8. ATK/ 3000 DEF/ 2500. Kontrol ettiğiniz 1 "Sun God" canavarı + Sahadaki 2 açık canavar. Füzyon Malzemesi olarak kullanılamaz. Füzyon Çağrısıyla veya yukarıdaki malzemeleri sahadan Mezarlığa göndererek doğrudan rakibinizin Ana Canavar Bölgesine Özel Çağrılmalıdır (Bu yöntemle çağırırsanız o tur başka sadece 1 Özel Çağrı yapabilirsiniz). Bu kartı kontrol eden oyuncu her Hazırlık Aşamasında (Standby Phase) 1000 hasar alır.',
+    summonCondition: 'Sahanızdaki 1 Sun God canavarı + Sahadaki 2 açık canavar mezara gönderilerek rakip sahaya Özel Çağrılır.',
+    effectSummary: 'Rakibin dokunulmaz patronları dâhil 2 canavarını feda edip rakibin sahasına hapseder (Hedef almaz, efektle yok etmez, dokunulmazlıkları delip geçer)! Her tur rakibe 1000 yakma hasarı verir.'
+  },
+  {
+    name: 'Sun God of Darkness, The Winged Dragon of Ra',
+    apiName: '',
+    category: 'Ekstra Deste',
+    officialText: '[İlahi-Canavar / Füzyon / Efekt] Seviye 10. ATK/ ? DEF/ ?. "The Winged Dragon of Ra" + 1 veya daha fazla "Sun God" canavarı. Bu kart ayrıca "The Immortal Sun God" efektiyle Ekstra Desteden doğrudan Özel Çağrılabilir. Bu kartın Özel Çağrısı engellenemez. Sahanızdaki ve Mezarlığınızdaki her "Sun God" canavarı için 1000 ATK/DEF kazanır. Turda 1 kez (Hızlı Efekt): 1000 LP ödeyerek; sahadaki 1 kartı Mezarlığa gönderebilirsiniz (hedef almaz). Rakibiniz bir kart veya efekt çalıştırdığında: Mezarlığınızdan 1 "Sun God" kartını sürgün ederek o efekti geçersiz kılabilirsiniz. Sahadan ayrılırsa Mezarlıktan koşulsuz "The Winged Dragon of Ra" veya "The Winged Dragon of Ra - Immortal Phoenix" Özel Çağırır.',
+    summonCondition: 'Füzyon Çağrısı veya "The Immortal Sun God" büyüsüyle Ekstra Desteden çağrılır.',
+    effectSummary: 'Mezarlık gücüyle devasa ATK kazanan, hedef almadan rakip kartlarını silen, rakip efektlerini iptal edebilen ve öldüğünde mezardan ölümsüz Ra dirilten Karanlık Tanrı Füzyonu.'
   }
 ];

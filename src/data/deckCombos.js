@@ -426,6 +426,255 @@ export const DECK_COMBOS = {
         "Ardından Ekstra Destenizden tam 10.000 ATK gücündeki orijinal \"Armityle the Chaos Phantasm\"ı doğrudan sahaya indirin ve boş sahaya saldırın!"
       ],
       "result": "Rakibin tüm sahasını sıfırlayan ve 10.000 ATK ile tek bir vuruşta düelloyu kazandıran nihai kaos gücü."
+    },
+    {
+      "id": "aeg-8",
+      "title": "Örnek Kombo 8: Hall to Darkness & Poet ile Hızlı Karanlık Ra Füzyonu ve Sahayı Çalma",
+      "cardsNeeded": [
+        "Hall to Darkness of the Sun God",
+        "Poet of the Sun God, Hellpomer",
+        "Destructor of the Sun God, Makura"
+      ],
+      "sequence": [
+        "Hall to Darkness of the Sun God",
+        "The Winged Dragon of Ra",
+        "Poet of the Sun God, Hellpomer",
+        "Destructor of the Sun God, Makura",
+        "The Immortal Sun God",
+        "Sun God of Darkness, The Winged Dragon of Ra",
+        "Reign of the Sun God"
+      ],
+      "difficulty": "Orta / Çok Güçlü",
+      "steps": [
+        "\"Hall to Darkness of the Sun God\" sürekli büyüsünü açarken destenizden \"The Winged Dragon of Ra\"yı doğrudan mezarlığa gönderin.",
+        "Hall to Darkness açıldığı an efektiyle destenizden \"Poet of the Sun God, Hellpomer\"ı elinize ekleyin.",
+        "Poet of the Sun God'ın efektini çalıştırın: Elinizden \"Destructor of the Sun God, Makura\"yı mezara atarak Poet'i sahaya Özel Çağırın.",
+        "Makura mezara gittiği için efekti tetiklenir: Desteden \"The Immortal Sun God\" Hızlı Büyüsünü veya \"Reign of the Sun God\" tuzağını kurar ve BU TUR AÇILABİLİR yapar.",
+        "Hızlı Büyü \"The Immortal Sun God\"ı aktifleştirin: Mezarlıktaki Ra'yı diriltip anında Ekstra Desteden \"Sun God of Darkness, The Winged Dragon of Ra\" Füzyonunu sahaya indirin!",
+        "Sahada Ra varken \"Reign of the Sun God\" tuzağını açın: İki oyuncunun mezarlığından birer canavar diriltin ve RAKİBİN TÜM CANAVARLARININ KONTROLÜNÜ ÇALIN!"
+      ],
+      "result": "Rakibin tüm canavarlarını tek hamlede elinden alan, Ekstra Desteden karanlık Ra füzyonunu sahaya indiren ve iki mezardan da canavar dirilten ezici Güneş Tanrısı kombosu."
+    },
+    {
+      "id": "aeg-9",
+      "title": "Örnek Kombo 9: Makura & Gilgarth ile Rakibin Patron Canavarlarını Eritme (Iron Cage Lava Golem)",
+      "cardsNeeded": [
+        "Destructor of the Sun God, Makura",
+        "Slaughter Machine of the Sun God, Gilgarth"
+      ],
+      "sequence": [
+        "Destructor of the Sun God, Makura",
+        "Slaughter Machine of the Sun God, Gilgarth",
+        "Iron Cage of the Sun God, Lava Golem",
+        "Torture Tool of the Sun God, Visor Death Shock"
+      ],
+      "difficulty": "Kolay / Taktiksel",
+      "steps": [
+        "\"Destructor of the Sun God, Makura\"yı sahaya Normal Çağırın veya mezara gönderin; desteden \"Hall to Darkness\" veya \"Protector of the Sun God\" kurun.",
+        "Sahada 'Sun God' kartı bulunduğu için elinizdeki \"Slaughter Machine of the Sun God, Gilgarth\"ı bedelsiz Özel Çağırın.",
+        "Rakibin sahasında dokunulmaz veya güçlü 2 canavar varsa, kendi sahanızdaki Sun God canavarı ile rakibin o 2 canavarını mezara gönderin; Ekstra Destenizden \"Iron Cage of the Sun God, Lava Golem\"ı rakibin sahasına kilitleyin (Bu bir çağırma kuralıdır, hiçbir kart koruması veya engeli bunu durduramaz!).",
+        "Rakibin canavarları mezara gönderildiği anda elinizdeki \"Torture Tool of the Sun God, Visor Death Shock\" sahaya fırlar; sahadaki başka bir kartı rakibin eline geri yollar ve rakibe 800 hasar verir.",
+        "Rakip kendi hazırlık aşamasında Lava Golem kafesinden her tur 1000 yakma hasarı alarak tükenir."
+      ],
+      "result": "Rakibin en dokunulmaz canavarlarını feda kuralıyla haritadan silip sahasına Lava Golem hapseden, Visor ile kart sektiren ve tur başı can yakan işkence kombosu."
+    },
+    {
+      "id": "aeg-10",
+      "title": "Örnek Kombo 10: Protector of the Sun God, Egyptian God Slime ile Tek Kartta 3 Feda ve Ra OTK",
+      "cardsNeeded": [
+        "Protector of the Sun God, Egyptian God Slime",
+        "Prayers to the Egyptian Gods (veya The Winged Dragon of Ra)"
+      ],
+      "sequence": [
+        "Protector of the Sun God, Egyptian God Slime",
+        "Prayers to the Egyptian Gods",
+        "The Winged Dragon of Ra GOD",
+        "Reign of the Sun God"
+      ],
+      "difficulty": "Kolay / Yüksek Hasar",
+      "steps": [
+        "\"Protector of the Sun God, Egyptian God Slime\" sürekli tuzağını açarak sahaya 3000 DEF gücünde devasa bir canavar olarak çağırın.",
+        "Protector of the Sun God sahadayken tek başına bir İlahi Canavar (DIVINE) için 3 Feda yerine sayılır ve rakibin saldırılarını üzerine çeker.",
+        "\"Prayers to the Egyptian Gods\" büyüsünü oynayarak destenizden \"The Winged Dragon of Ra GOD\"ı arayın ve fazladan bir Normal Çağrı hakkı kazanın.",
+        "Protector of the Sun God'ı tek başına 3 feda sayarak feda edin ve \"The Winged Dragon of Ra GOD\"ı sahaya indirin!",
+        "Ra'nın efektiyle LP'nizi 100 kalana kadar ATK'sine aktarın (7900+ ATK) ve Prayers büyüsünün korumasıyla rakip canavar efektlerine dokunulmaz olarak doğrudan saldırın.",
+        "Tur sonunda mezarlıktaki \"Reign of the Sun God\"ı sürgün ederek Ra'yı feda edin ve harcadığınız tüm can puanını katbekat geri kazanın."
+      ],
+      "result": "Tek bir tuzakla 3 feda toplayıp devasa ATK ile vuran, büyü/tuzak ve canavar efektlerine dokunulmaz Ra ile tek turda oyunu bitiren efsanevi OTK."
+    },
+    {
+      "id": "aeg-11",
+      "title": "Örnek Kombo 11: Awakening of the Sacred Beasts & Cerulean Skyfire ile Tam Kilit (Omni-Lockdown)",
+      "cardsNeeded": [
+        "Dark Beckoning Beast",
+        "Awakening of the Sacred Beasts (veya Cerulean Skyfire)"
+      ],
+      "sequence": [
+        "Dark Beckoning Beast",
+        "Dark Summoning Beast",
+        "Hamon, Lord of Striking Thunder",
+        "Raviel, Lord of Phantasms",
+        "Cerulean Skyfire",
+        "Awakening of the Sacred Beasts"
+      ],
+      "difficulty": "Orta / Mutlak Kilit",
+      "steps": [
+        "\"Dark Beckoning Beast\"ı Normal Çağırın; destenizden \"Dark Summoning Beast\"ı elinize ekleyin ve ek Normal Çağrı hakkı kazanın.",
+        "\"Dark Summoning Beast\"ı çağırıp feda edin: Desteden koşulları yok sayarak \"Hamon, Lord of Striking Thunder\"ı sahaya indirin.",
+        "Mezarlıktaki Dark Summoning Beast'i oyundan çıkarıp desteden \"Raviel, Lord of Phantasms\"ı elinize ekleyin.",
+        "Sahanızda açık duran \"Cerulean Skyfire\" sayesinde rakibin her tur ilk çalıştırdığı Büyü/Tuzak kartının efektini tamamen geçersiz kılıp patlatın.",
+        "Sahada Hamon ve Raviel (2 Kutsal Canavar) varken açık duran \"Awakening of the Sacred Beasts\" tuzağı rakibin sahadaki TÜM canavar efektlerini otomatik olarak iptal eder (Skill Drain)! Üstelik 3. canavar indiğinde rakibin tüm mezarını sürgüne gönderir."
+      ],
+      "result": "Rakibin hem sahadaki tüm canavar efektlerini hem de oynadığı büyü ve tuzakları iptal eden, geçilemez çift Kutsal Canavar duvarı."
+    },
+    {
+      "id": "aeg-12",
+      "title": "Örnek Kombo 12: Dimension Fusion Destruction ile Tek Turda Armityle ve 10.000 ATK OTK",
+      "cardsNeeded": [
+        "Dimension Fusion Destruction",
+        "Dark Beckoning Beast (veya Opening of the Spirit Gates)"
+      ],
+      "sequence": [
+        "Dark Beckoning Beast",
+        "Opening of the Spirit Gates",
+        "Dimension Fusion Destruction",
+        "Armityle the Chaos Phantasm",
+        "Raviel, Lord of Phantasms - Shimmering Scraper"
+      ],
+      "difficulty": "İleri Seviye / Tek Vuruş",
+      "steps": [
+        "\"Dark Beckoning Beast\" ve \"Opening of the Spirit Gates\" ile Kutsal Canavar malzemelerini (Uria, Hamon, Raviel) desteden mezarlığa ve ele akıtın.",
+        "\"Dimension Fusion Destruction\" büyüsünü çalıştırın: Elinizden, sahanızdan ve/veya Mezarlığınızdan \"Uria\", \"Hamon\" ve \"Raviel\"i oyundan çıkararak Ekstra Desteden doğrudan \"Armityle the Chaos Phantasm\"ı Füzyon Çağrısıyla indirin.",
+        "Kendi turunuzda Armityle tam 10.000 ATK kazanır ve savaşta yok edilemez.",
+        "Elinizdeki \"Raviel, Lord of Phantasms - Shimmering Scraper\"ı atarak Armityle'ın tüm rakip canavarlarına saldırmasını sağlayın veya doğrudan boş sahaya 10.000 hasar vurarak tek darbede düelloyu kazanın!"
+      ],
+      "result": "Mezarlık malzemeleriyle bedavaya çağrılan 10.000 ATK gücündeki Kaos İblisi ile rakibe tek vuruşta oyun kazandıran yıkıcı kombo."
+    },
+    {
+      "id": "aeg-13",
+      "title": "Örnek Kombo 13: Egyptian God's Knight & Disciple ile Çift Dokunulmaz Tanrı Çağrısı",
+      "cardsNeeded": [
+        "Egyptian God's Knight",
+        "Prayers to the Egyptian Gods (veya Elde 1 Tanrı Kartı)"
+      ],
+      "sequence": [
+        "Egyptian God's Knight",
+        "Egyptian Gods' Disciple",
+        "Prayers to the Egyptian Gods",
+        "Obelisk The Tormentor GOD",
+        "Slifer The Sky Dragon GOD"
+      ],
+      "difficulty": "Orta / Hızlı Kurulum",
+      "steps": [
+        "\"Egyptian God's Knight\"ı sahaya Normal Çağırın; efektiyle destenizden doğrudan \"Egyptian Gods' Disciple\"ı Savunma Konumunda sahaya Özel Çağırın.",
+        "Disciple sahaya indiğinde destenizden \"Prayers to the Egyptian Gods\" büyüsünü kapalı koyar ve desteden 1 İLAHİ Tanrı (Obelisk) arar.",
+        "\"Prayers to the Egyptian Gods\" büyüsünü hemen çalıştırın: Desteden 2. Tanrıyı (Slifer) elinize ekleyin ve bu tur fazladan 1 Tanrı Normal Çağrı hakkı kazanın.",
+        "Sahadaki \"Egyptian Gods' Disciple\" tek başına 3 Feda yerine sayılır! Disciple'ı feda ederek \"Obelisk The Tormentor GOD\"ı sahaya indirin.",
+        "Sahanızdaki \"Egyptian God's Knight\"ın Hızlı Efektini çalıştırarak kendisini feda edin: Tanrılarınıza +1000 ATK verin ve anında 2. Normal Çağrınızı yaparak \"Slifer The Sky Dragon GOD\"ı sahaya indirin!",
+        "Prayers büyüsü sayesinde Tanrılarınız rakip canavar efektlerinden, GOD formları sayesinde de büyü ve tuzaklardan tamamen etkilenmez!"
+      ],
+      "result": "Tek turda sahaya inen, hem canavar hem büyü hem tuzak efektlerine karşı tamamen dokunulmaz çift Mısır Tanrısı ordusu."
+    },
+    {
+      "id": "aeg-14",
+      "title": "Örnek Kombo 14: Egyptian God Guardian & Anger ile Rakip Turunda Sürpriz Temizlik ve Karşı Taarruz",
+      "cardsNeeded": [
+        "Egyptian God Guardian",
+        "1 DIVINE Tanrı Kartı (Desteden veya Elden)"
+      ],
+      "sequence": [
+        "Egyptian God Guardian",
+        "Slifer the Sky Dragon",
+        "Egyptian God's Anger",
+        "Egyptian God Servant Token"
+      ],
+      "difficulty": "Kolay / Reaktif Savunma",
+      "steps": [
+        "Elinizdeki \"Egyptian God Guardian\"ın efektini çalıştırın: Desteden 1 Mısır Tanrısını (Slifer veya Ra) doğrudan mezara göndererek Guardian'ı 3000 DEF ile sahaya Özel Çağırın.",
+        "Guardian çağrıldığında destenizden doğrudan \"Egyptian God's Anger\" tuzağını sahaya kurar ve bu tur açılabilir yapar.",
+        "Rakip turunda rakip canavarlarını çağırıp taarruza geçerken \"Egyptian God's Anger\" tuzağını açın: Sahada ve mezarlığınızdaki Tanrı sayısı kadar rakip kartını seçip yok edin!",
+        "Anger'ın efektiyle sahaya 2 adet \"Egyptian God Servant Token\" çağırın; böylece bir sonraki tur için fedalarınız hazır olur.",
+        "Rakip kritik bir kart veya efekt açtığında mezardaki \"Egyptian God Guardian\"ı oyundan çıkararak rakibin o efektini derhal iptal edin (Negate)."
+      ],
+      "result": "Rakibin hamlesini bölen, sahasını temizleyen, efektini iptal eden ve sonraki tur için 3 feda sağlayan kusursuz reaktif savunma."
+    },
+    {
+      "id": "aeg-15",
+      "title": "Örnek Kombo 15: 1-2 Turda 3 Mısır Tanrısı (Slifer + Obelisk + Ra) ve Holactie ile Anında Galibiyet",
+      "cardsNeeded": [
+        "Egyptian God's Knight",
+        "Prayers to the Egyptian Gods (veya Disciple)",
+        "The Immortal Sun God (veya Hall to Darkness)"
+      ],
+      "sequence": [
+        "Egyptian God's Knight",
+        "Egyptian Gods' Disciple",
+        "Prayers to the Egyptian Gods",
+        "Obelisk the Tormentor",
+        "Slifer the Sky Dragon",
+        "The Sun God Leading Down into Darkness",
+        "The Immortal Sun God",
+        "The Winged Dragon of Ra",
+        "Holactie the Creator of Light"
+      ],
+      "difficulty": "İleri Seviye / Otomatik Kazanma (OTK)",
+      "steps": [
+        "\"Egyptian God's Knight\"ı Normal Çağırın -> Desteden doğrudan \"Egyptian Gods' Disciple\"ı Özel Çağırın.",
+        "Disciple sahaya indiğinde desteden \"Prayers to the Egyptian Gods\" büyüsünü kurar ve 1. Tanrıyı (\"Obelisk the Tormentor\") elinize ekler.",
+        "\"Prayers to the Egyptian Gods\"ı aktifleştirin: Desteden 2. Tanrıyı (\"Slifer the Sky Dragon\") arayın ve fazladan 1 İLAHİ Normal Çağrı hakkı kazanın.",
+        "Disciple tek başına 3 Feda sayılır: Disciple'ı feda ederek \"Obelisk the Tormentor\"ı sahaya Normal Çağırın.",
+        "Sahadaki \"Egyptian God's Knight\"ı feda ederek ek Feda Çağrısı açın ve sahanızdaki tokenlar/fedalar ile \"Slifer the Sky Dragon\"ı 2. Tanrı olarak sahaya indirin.",
+        "\"The Sun God Leading Down into Darkness\" (veya Egyptian God Guardian) ile desteden 3. Tanrı \"The Winged Dragon of Ra\"yı doğrudan mezarlığa gönderin.",
+        "Hızlı Büyü \"The Immortal Sun God\"ı çalıştırın: Çağırma koşullarını yok sayarak mezarlıktaki \"The Winged Dragon of Ra\"yı sahaya Özel Çağırın!",
+        "Sahada 3 Mısır Tanrısı (Slifer, Obelisk, Ra) aynı anda toplandığında elinizdeki \"Holactie the Creator of Light\" canavarını 3 Tanrıyı feda ederek çağırın: OYUNU ANINDA KAZANIN!"
+      ],
+      "result": "En geç 2. turda 3 asıl Mısır Tanrısını (Slifer, Obelisk, Ra) aynı anda sahaya süren ve Holactie ile koşulsuz anında düello zaferi kazandıran nihai antik kombo."
+    },
+    {
+      "id": "aeg-16",
+      "title": "Anti-Toon Rehberi 1: Iron Cage Lava Golem & Soul Crossing ile Dokunulmaz Toon Tanrılarını Feda Etme",
+      "cardsNeeded": [
+        "Iron Cage of the Sun God, Lava Golem (Ekstra Deste)",
+        "Soul Crossing (veya 1 Sun God canavarı)"
+      ],
+      "sequence": [
+        "Destructor of the Sun God, Makura",
+        "Iron Cage of the Sun God, Lava Golem",
+        "Soul Crossing",
+        "Obelisk The Tormentor GOD"
+      ],
+      "difficulty": "Kolay / Stratejik Karşı Hamle",
+      "steps": [
+        "Rakibiniz \"Toon World the Perfect World\" açıp arkasına Toon Obelisk veya Toon Slifer gibi canavarlar koyduğunda panik yapmayın: Perfect World sadece KART EFEKTLERİNE karşı koruma sağlar, OYUN KURALI MALİYETLERİNE (Cost / Tribute) karşı asla koruyamaz!",
+        "Sahanızdaki 1 Sun God canavarı ile rakibin sahasındaki o 2 dokunulmaz Toon Tanrısını doğrudan mezara göndererek Ekstra Destenizden \"Iron Cage of the Sun God, Lava Golem\"ı rakip sahaya çağırın!",
+        "Bu çağırma bir kart efekti değil, kural gereği malzeme gönderme prosedürü olduğu için Perfect World'ün dokunulmazlığı TAMAMEN GEÇERSİZ KALIR ve rakibin patron canavarları anında mezara gider.",
+        "Alternatif olarak rakip turunda \"Soul Crossing\" Hızlı Büyüsünü açın: Rakibin sahasındaki 3 dokunulmaz Toon canavarını kendi canavarlarınız gibi feda ederek kendi Mısır Tanrınızı sahaya indirin!",
+        "Rakip sahadaki Lava Golem sayesinde hem canavarlarını kaybeder hem de her hazırlık aşamasında 1000 hasar alır."
+      ],
+      "result": "Kusursuz korumaya sahip Toon Tanrılarını kural feda maliyetiyle doğrudan mezara gömen ve Toon taarruzunu anında bitiren kesin çözüm."
+    },
+    {
+      "id": "aeg-17",
+      "title": "Anti-Toon Rehberi 2: Uria & Cerulean Skyfire ile 'Perfect World'ü Yanıtsız Yok Etme",
+      "cardsNeeded": [
+        "Inferno of the Sacred Beasts - Uria, Lord of Searing Flames",
+        "Cerulean Skyfire (veya Hamon)"
+      ],
+      "sequence": [
+        "Hamon, Lord of Striking Thunder",
+        "Cerulean Skyfire",
+        "Inferno of the Sacred Beasts - Uria, Lord of Searing Flames",
+        "The Winged Dragon of Ra - Rusty Black"
+      ],
+      "difficulty": "Kolay / Toon Çökertici",
+      "steps": [
+        "\"Toon World the Perfect World\" Toon canavarlarını korur, ancak KENDİSİNİ KORUYAN HİÇBİR EFEKTİ YOKTUR! Saha büyüsü gittiği an rakibin tüm Toon ordusu savunmasız kalır ve doğrudan saldıramaz.",
+        "Sahada Hamon varken \"Cerulean Skyfire\" sürekli büyüsünü açık tutun: Rakip Perfect World'ü açtığı an ilk büyü efekti olarak Skyfire tarafından otomatikman iptal edilir ve yok edilir!",
+        "Sahada zaten Perfect World varsa, elinizdeki \"Inferno of the Sacred Beasts - Uria\" canavarının Hızlı Efektini çalıştırın: Perfect World'ü hedef alıp yok edin! Bu efektin çalışmasına karşı hiçbir oyuncu kart/efekt etkinleştiremez (Rakip Toon Terror ile bile yanıt veremez!).",
+        "Alternatif olarak \"The Winged Dragon of Ra - Rusty Black\"e 500 LP ödeyin: Perfect World'ü yok etmeden doğrudan Mezarlığa gönderin.",
+        "Saha büyüsü parçalandığı an sahadaki Mısır Tanrılarınızla (Obelisk, Slifer, Ra) korumasız kalan Toon canavarlarını silip geçin."
+      ],
+      "result": "Toon destesini ayakta tutan Perfect World temel taşını rakibe yanıt şansı bırakmadan parçalayan ve tüm Toon stratejisini yerle bir eden taktik."
     }
   ],
   "blue-eyes": [
