@@ -142,9 +142,9 @@ export const ancientGodsCards = [
     name: 'Dimension Fusion Destruction',
     apiName: 'Dimension Fusion Destruction',
     category: 'Sihir',
-    officialText: 'Elinizden, sahanızdan ve/veya Mezarlığınızdan 1\'er adet "Uria, Lord of Searing Flames", "Hamon, Lord of Striking Thunder" ve "Raviel, Lord of Phantasms"ı oyundan çıkarın; Ekstra Destenizden 1 "Armityle the Chaos Phantasm"ı çağırma koşullarını yok sayarak Özel Çağırın. Bu kartla yapılan Özel Çağrıdan siz savaş hasarı almazsınız.',
+    officialText: 'Elinizden, sahanızdan ve/veya Mezarlığınızdan bir "Phantasm" Füzyon Canavarı üzerinde listelenen Füzyon Malzemelerini oyundan çıkarın, ardından çağırma koşullarını yok sayarak o Füzyon Canavarını Ekstra Destenizden Özel Çağırın. Bu efektle Özel Çağrılan canavarın dahil olduğu saldırılardan siz savaş hasarı almazsınız. Kontrolünüzde "Uria, Lord of Searing Flames", "Hamon, Lord of Striking Thunder" veya "Raviel, Lord of Phantasms" varsa, rakibiniz bu kartın aktivasyonuna yanıt olarak kart veya efekt etkinleştiremez.',
     summonCondition: 'Normal Büyü kartı.',
-    effectSummary: 'Mezar veya sahadaki 3 Kutsal Canavarı sürgüne yollayarak 10.000 ATK\'lik Armityle birleşim canavarını bedavaya sahaya fırlatır.'
+    effectSummary: 'Elden, sahadan ve mezarlıktan malzemeleri sürgün ederek Armityle\'ı bedavaya sahaya fırlatır; Kutsal Canavar kontrol ederken rakip buna yanıt veremez.'
   },
   {
     name: 'Divine Evolution',
@@ -203,12 +203,12 @@ export const ancientGodsCards = [
     effectSummary: 'Rakibin tüm güçlü patron canavarlarını tek hamlede feda edip onların canavarlarıyla kendi sahanıza Mısır Tanrısı dikmenizi sağlayan en güçlü büyü.'
   },
   {
-    name: 'Spell Card Soul Exchange',
+    name: 'Soul Exchange',
     apiName: 'Soul Exchange',
     category: 'Sihir',
-    officialText: 'Rakibinizin kontrol ettiği 1 canavarı hedef alın; bu tur bir canavarı Feda edecekseniz, kendi canavarınız yerine o hedef canavarı Feda etmelisiniz. Bu kartı çalıştırdığınız tur Savaş Aşaması yürütemezsiniz.',
+    officialText: 'Rakibinizin kontrol ettiği 1 canavarı hedef alın; bu tur bir canavarı Feda edecekseniz, kendi canavarınız yerine o hedef canavarı Feda etmelisiniz. Bu kartı etkinleştirdiğiniz tur Savaş Aşaması yürütemezsiniz.',
     summonCondition: 'Normal Büyü kartı.',
-    effectSummary: 'Rakibin canavarını çalarak kendi feda çağrınız için kurban etmenizi sağlar.'
+    effectSummary: 'Rakibin canavarını çalarak kendi feda çağrınız için kurban etmenizi sağlar (O tur savaş aşaması yapılamaz).'
   },
   {
     name: 'Super Polymerization',
@@ -230,17 +230,17 @@ export const ancientGodsCards = [
     name: 'Triple Tactics Thrust',
     apiName: 'Triple Tactics Thrust',
     category: 'Sihir',
-    officialText: 'Eğer rakibiniz bu tur bir canavar efekti çalıştırdıysa: Destenizden 1 Normal Sihir veya Normal Tuzak kartını elinize ekleyin (rakip canavar kontrol ediyorsa doğrudan sahanıza da kapalı koyabilirsiniz).',
-    summonCondition: 'Rakip canavar efekti açtığında çalıştırılabilir.',
-    effectSummary: 'Desteden istediğiniz herhangi bir Normal Büyü veya Tuzağı anında bulup elinize getiren arama motoru.'
+    officialText: 'Eğer rakibiniz bu tur bir canavar efekti etkinleştirdiyse: Destenizden "Triple Tactics Thrust" hariç 1 Normal Büyü/Tuzak kartını doğrudan sahanıza Set edin, VEYA rakibiniz bir canavar kontrol ediyorsa bunun yerine onu elinize ekleyebilirsiniz. Bu efektle Set edilen kart bu tur etkinleştirilemez. Turda sadece 1 "Triple Tactics Thrust" etkinleştirebilirsiniz.',
+    summonCondition: 'Normal Büyü Kartı.',
+    effectSummary: 'Rakip canavar efekti açtığında desteden istediğiniz herhangi bir Normal Büyü veya Tuzağı doğrudan sahaya kapatır veya rakip sahada canavar varsa doğrudan ele verir.'
   },
   {
-    name: 'Unleashing the Sacred Beasts',
-    apiName: 'Unleashing the Sacred Beasts',
+    name: 'Sacred Beasts Released',
+    apiName: 'Sacred Beasts Released',
     category: 'Sihir',
-    officialText: 'Kutsal Canavarların zincirlerini kıran sürekli büyü. Sahadaki Kutsal Canavarların çağırma malzemelerini mezarlıktan veya desteden sahaya aktarır ve onların savaş gücünü zirveye taşır.',
-    summonCondition: 'Sürekli Büyü.',
-    effectSummary: 'Kutsal canavarların sınırsız potansiyelini serbest bırakan ve tur bazında avantaj sağlayan büyü kartı.'
+    officialText: 'Destenizden farklı isimlere sahip 3 "Sacred Beast" canavarını elinize ekleyin, ardından 2 kart atın. Bu kart Mezarlığınızdaysa, oraya gönderildiği tur hariç: Bu kartı oyundan çıkarabilirsiniz; destenizden Normal Çağrılamayan/Kapalı Konamayan 1 Seviye 10 Pyro, Thunder veya Fiend canavarını elinize ekleyin. "Sacred Beasts Released"in her bir efektini turda sadece 1 kez kullanabilirsiniz.',
+    summonCondition: 'Normal Büyü Kartı.',
+    effectSummary: 'Desteden 3 farklı Kutsal Canavarı ele ekleyip 2 kart attırır; mezarlıktan kendisini sürgüne yollayarak desteden Seviye 10 özel bir canavar (Uria, Hamon, Raviel vb.) aratır.'
   },
 
   // --- TUZAKLAR (ORİJİNAL) ---
@@ -248,9 +248,9 @@ export const ancientGodsCards = [
     name: 'Awakening of the Sacred Beasts',
     apiName: 'Awakening of the Sacred Beasts',
     category: 'Tuzak',
-    officialText: 'Kontrol ettiğiniz farklı isimlerdeki "Uria", "Hamon" ve "Raviel" sayısına göre şu efektleri kazanır: • 1+: Rakibiniz her canavar çağırdığında onun ATK\'si kadar LP kazanın. • 2+: Rakibinizin sahadaki canavarlarının çalıştırdığı efektleri geçersiz kılın. • 3+: Rakibinizin Mezarlığa gidecek tüm canavarları bunun yerine oyundan çıkarılır.',
-    summonCondition: 'Sürekli Tuzak (Sahada aktif kalır).',
-    effectSummary: 'Sahadaki Kutsal Canavar sayısına göre rakibin canavar efektlerini tamamen silen ve mezarını sürgüne yollayan nihai kilit tuzağı.'
+    officialText: 'Bu kart, kontrol ettiğiniz farklı isimlere sahip "Uria, Lord of Searing Flames", "Hamon, Lord of Striking Thunder" ve/veya "Raviel, Lord of Phantasms" sayısına bağlı olarak şu efektleri kazanır:\n● 1+: Rakibiniz her canavar Normal veya Özel Çağırdığında: O canavarın/canavarların ATK\'si kadar LP kazanın.\n● 2+: Rakibinizin kontrol ettiği canavarların etkinleştirilen efektlerini geçersiz kılın.\n● 3: Rakibinizin Mezarlığına gönderilecek tüm canavarlar bunun yerine oyundan çıkarılır.\nKendi turunuzda bir kez, Seviye 10 bir canavar kontrol ediyorsanız: Mezarlığınızdan 1 Sürekli Tuzak kartını elinize ekleyebilirsiniz.',
+    summonCondition: 'Sürekli Tuzak Kartı (Continuous Trap).',
+    effectSummary: 'Sahadaki Kutsal Canavar sayısına göre can puanı kazandıran, rakip canavar efektlerini tamamen kitleyen, mezarını sürgüne yollayan ve mezardan Sürekli Tuzak geri alan nihai kilit tuzağı.'
   },
   {
     name: 'Sacred Beasts Combined Assault',
@@ -449,11 +449,11 @@ export const ancientGodsCards = [
     effectSummary: 'Rakibin dokunulmaz patronları dâhil 2 canavarını feda edip rakibin sahasına hapseder (Hedef almaz, efektle yok etmez, dokunulmazlıkları delip geçer)! Her tur rakibe 1000 yakma hasarı verir.'
   },
   {
-    name: 'Sun God of Darkness, The Winged Dragon of Ra',
-    apiName: '',
+    name: 'The Sun God of Darkness - The Winged Dragon of Ra',
+    apiName: 'Sun God of Darkness, The Winged Dragon of Ra',
     category: 'Ekstra Deste',
-    officialText: '[İlahi-Canavar / Füzyon / Efekt] Seviye 10. ATK/ ? DEF/ ?. "The Winged Dragon of Ra" + 1 veya daha fazla "Sun God" canavarı. Bu kart ayrıca "The Immortal Sun God" efektiyle Ekstra Desteden doğrudan Özel Çağrılabilir. Bu kartın Özel Çağrısı engellenemez. Sahanızdaki ve Mezarlığınızdaki her "Sun God" canavarı için 1000 ATK/DEF kazanır. Turda 1 kez (Hızlı Efekt): 1000 LP ödeyerek; sahadaki 1 kartı Mezarlığa gönderebilirsiniz (hedef almaz). Rakibiniz bir kart veya efekt çalıştırdığında: Mezarlığınızdan 1 "Sun God" kartını sürgün ederek o efekti geçersiz kılabilirsiniz. Sahadan ayrılırsa Mezarlıktan koşulsuz "The Winged Dragon of Ra" veya "The Winged Dragon of Ra - Immortal Phoenix" Özel Çağırır.',
-    summonCondition: 'Füzyon Çağrısı veya "The Immortal Sun God" büyüsüyle Ekstra Desteden çağrılır.',
-    effectSummary: 'Mezarlık gücüyle devasa ATK kazanan, hedef almadan rakip kartlarını silen, rakip efektlerini iptal edebilen ve öldüğünde mezardan ölümsüz Ra dirilten Karanlık Tanrı Füzyonu.'
+    officialText: '[İlahi-Canavar / Füzyon / Efekt] Seviye 10. ATK/ ? DEF/ ?.\n"The Winged Dragon of Ra" + 1 veya daha fazla "Sun God" canavarı.\nBu kart ayrıca "The Immortal Sun God" efektiyle Ekstra Desteden doğrudan Özel Çağrılabilir. Bu kartın Özel Çağrısı engellenemez. Sahanızdaki ve Mezarlığınızdaki her "Sun God" canavarı için 1000 ATK/DEF kazanır. Turda 1 kez (Hızlı Efekt): 1000 LP ödeyerek; sahadaki 1 kartı Mezarlığa gönderebilirsiniz (hedef almaz, yok etmez). Rakibiniz bir kart veya efekt çalıştırdığında: Mezarlığınızdan 1 "Sun God" kartını sürgün ederek o efekti geçersiz kılabilirsiniz. Bu kart sahadan ayrılırsa: Mezarlığınızdan çağırma koşullarını yok sayarak 1 "The Winged Dragon of Ra" veya "The Winged Dragon of Ra - Immortal Phoenix" Özel Çağırın.',
+    summonCondition: '"The Immortal Sun God" büyüsüyle ya da "The Winged Dragon of Ra" + 1 veya daha fazla "Sun God" canavarı birleştirilerek Ekstra Desteden Çağrılır.',
+    effectSummary: 'Mezarlıktaki her Sun God kartı başına 1000 ATK kazanan, 1000 LP ile hedef almadan rakip kartını mezara silen, mezardan Sun God sürgün ederek rakip efektlerini iptal eden ve yok edildiğinde mezardan ölümsüz Ra dirilten nihai Karanlık Güneş Tanrısı Füzyonu.'
   }
 ];

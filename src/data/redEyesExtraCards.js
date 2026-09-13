@@ -33,11 +33,11 @@ export const redEyesExtraCards = [
   },
   {
     name: 'Red-Eyes Black Dragon Exceed',
-    apiName: '',
+    apiName: 'Red-Eyes Black Dragon Exceed',
     category: 'Ekstra Deste',
-    officialText: '"Red-Eyes B. Dragon" + "Red-Eyes B. Dragon" + "Red-Eyes B. Dragon". Savaşta yok edilemez ve rakip efektleriyle yok edilemez. Sahada ve mezarlıklardaki her "Red-Eyes" için 300 ATK kazanır. Mezarlığa gönderilirse rakibin mezarlığından canavarları oyundan çıkarıp ATK\'sinin yarısı kadar rakibe doğrudan hasar verir.',
-    summonCondition: '3 adet Red-Eyes Black Dragon birleştirilerek Fusion Çağrılır.',
-    effectSummary: 'Red-Eyes canavarlarının ötesine geçen (Exceed), yüksek dayanıklılığa ve doğrudan hasar potansiyeline sahip füzyon canavarı.'
+    officialText: '"Red-Eyes Black Dragon" + metninde "Dark Time Wizard" geçen 1 canavar. Ya Fusion Çağrısıyla ya da "Dark Time Wizard" efektiyle bir canavarın yok edildiği turda sahadaki açık 1 canavarı Feda ederek Ekstra Destenizden Özel Çağrılmalıdır (Bu yöntemle turda sadece 1 kez çağrılabilir). Rakibinizin aktifleştirdiği Büyü ve canavar efektlerinden ETKİLENMEZ. Bu kart Özel Çağrılırsa: Elinizden veya Mezarlığınızdan 8 veya daha düşük Seviye 1 canavarı Özel Çağırabilirsiniz. ATK/ 3400 DEF/ 3000.',
+    summonCondition: '"Dark Time Wizard" efektiyle bir canavar yok edildiği tur sahadaki 1 açık canavar feda edilerek Ekstra Desteden çağrılır (veya Fusion).',
+    effectSummary: '"Dark Time Wizard" patlaması sonrası sahadan tek canavar feda edilerek bedavaya inen (3400 ATK), rakip büyü ve canavar efektlerinden etkilenmeyen ve indiğinde mezardan Seviye 8 veya daha düşük bir canavarı dirilten patron ejderha.'
   },
   {
     name: 'Red-Eyes Twin Dark Aura Dragon',
