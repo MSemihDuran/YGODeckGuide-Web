@@ -857,6 +857,108 @@ export const DECK_COMBOS = {
         "Sahadaki Karanlık Ra'nın Hızlı Efektiyle 1000 LP ödeyip sahadaki kalan herhangi bir kartı mezara yollayın; rakip hamle yaptığında mezardan Sun God sürgün edip o hamleyi iptal edin."
       ],
       "result": "Rakibin tüm taarruzunu durduran, sahasındaki tüm canavarları çalan ve Karanlık Ra ile oyunu kilitleyen mutlak hakimiyet kombosu."
+    },
+    {
+      "id": "aeg-22",
+      "category": "TOON Vs.",
+      "title": "TOON Vs. 1: 'Toon World the Perfect World' Sihir Kartını Yanıtsız Parçalama ve Yok Etme",
+      "cardsNeeded": [
+        "Inferno of the Sacred Beasts - Uria, Lord of Searing Flames",
+        "Cerulean Skyfire",
+        "Lightning Storm",
+        "The Winged Dragon of Ra - Rusty Black"
+      ],
+      "sequence": [
+        "Lightning Storm",
+        "Cerulean Skyfire",
+        "Inferno of the Sacred Beasts - Uria, Lord of Searing Flames",
+        "The Winged Dragon of Ra - Rusty Black"
+      ],
+      "difficulty": "Kolay / Büyü İmha Taktikleri",
+      "steps": [
+        "\"Toon World the Perfect World\" Saha Büyüsü Toon canavarlarını kart efektlerine ve savaşa karşı dokunulmaz kılar; ANCAK bu kartın KENDİSİNİ hedef alınmaktan veya yok edilmekten koruyan hiçbir koruması yoktur! Bu saha büyüsü sahadan kalktığı an rakibin tüm Toon canavarları savunmasız kalır ve doğrudan saldıramaz.",
+        "YÖNTEM 1 (Yanıtsız Yok Etme - Uria): Elinizdeki veya sahanızdaki \"Inferno of the Sacred Beasts - Uria, Lord of Searing Flames\" canavarının Hızlı Efektini çalıştırın ve rakibin \"Toon World the Perfect World\" kartını hedef alıp yok edin. Uria'nın kural metni gereği: \"Bu kartın aktivasyonuna ve efektine karşı hiçbir oyuncu kart ya da efekt etkinleştiremez.\" Bu sayede rakip sahada Toon Terror dahil ne olursa olsun kesinlikle yanıt veremez ve Perfect World anında patlar!",
+        "YÖNTEM 2 (Önleyici İptal - Cerulean Skyfire): Sahada \"Hamon, Lord of Striking Thunder\" varken \"Cerulean Skyfire\" sürekli büyüsünü açık tutun. Rakip \"Toon World the Perfect World\"ü oynadığı an, turdaki ilk büyü kartı/efekti olarak Skyfire tarafından otomatikman iptal edilir (negate) ve mezara gönderilir. Rakip büyüsünü sahaya oturtamaz bile!",
+        "YÖNTEM 3 (Toplu Büyü Temizliği - Lightning Storm): Sahanızda açık kart yoksa \"Lightning Storm\"u oynayın ve Rakibin Büyü/Tuzak kartlarını seçin. Perfect World ve arkasındaki tüm Toon tuzakları (Toon Terror dahil) topluca yok olur.",
+        "YÖNTEM 4 (Doğrudan Mezara Gönderme - Rusty Black): \"The Winged Dragon of Ra - Rusty Black\" sahadayken 500 LP ödeyin: Perfect World'ü \"yok etme\" şartına takılmadan doğrudan Mezarlığa gönderin."
+      ],
+      "result": "Toon destesini ayakta tutan \"Toon World the Perfect World\" temel taşını rakibe yanıt şansı bırakmadan parçalayan ve tüm Toon ordusunu korumasız bırakan kesin büyü imha rehberi."
+    },
+    {
+      "id": "aeg-23",
+      "category": "TOON Vs.",
+      "title": "TOON Vs. 2: Perfect World Sahadayken Dokunulmaz Toon Canavarlarını Feda & Kural ile Yok Etme",
+      "cardsNeeded": [
+        "The Sun God's Steelcage - Lava Golem",
+        "Soul Crossing",
+        "Super Polymerization"
+      ],
+      "sequence": [
+        "The Sun God's Destructor - Makyura",
+        "The Sun God's Steelcage - Lava Golem",
+        "Soul Crossing",
+        "Obelisk The Tormentor GOD",
+        "Super Polymerization"
+      ],
+      "difficulty": "Orta / Kural & Feda Üstünlüğü",
+      "steps": [
+        "Rakibin sahasında \"Toon World the Perfect World\" açıkken Toon canavarları kart efektlerinden etkilenmez ve savaşta yok edilemez. Ancak Yu-Gi-Oh resmi kurallarına göre: \"OYUN KURALI FEDA MALİYETLERİ (Cost / Tribute), KART EFEKTİ DOKUNULMAZLIĞINI TAMAMEN DELER!\" Dokunulmaz bir canavar feda edilmeye karşı asla korunamaz.",
+        "YÖNTEM 1 (Lava Golem ile Eritme): Ekstra Destenizden \"The Sun God's Steelcage - Lava Golem\" çağrısını yapın: Sahanızdaki 1 Sun God canavarı ile RAKİBİN o dokunulmaz 2 Toon canavarını (Toon Obelisk, Toon Slifer, Toon Dark Magician vb.) mezara göndererek rakip sahaya Özel Çağırın! Bu çağırma kart efekti değil çağırma kural prosedürü olduğu için Perfect World hiçbir şey yapamaz ve rakibin dokunulmaz canavarları mezara gider. Üstelik Lava Golem her tur rakibe 1000 hasar verir.",
+        "YÖNTEM 2 (Soul Crossing ile Tanrı İndirme): Rakip turunda veya kendi turunuzda \"Soul Crossing\" Hızlı Büyüsünü açın: Rakibin sahasındaki 3 adet dokunulmaz Toon canavarını feda ederek elinizden \"Obelisk The Tormentor GOD\", \"Slifer The Sky Dragon GOD\" veya \"The Winged Dragon of Ra GOD\" indirin! Dokunulmaz Toon canavarları feda kuralıyla sahadan silinir ve yerlerine kudretli Mısır Tanrınız kurulur.",
+        "YÖNTEM 3 (Super Polymerization ile Yanıtsız Füzyon): \"Super Polymerization\" Hızlı Büyüsünü etkinleştirin. Rakibin canavarlarını füzyon materyali olarak kullanıp sahadan mezara gönderin; rakip hiçbir kartla yanıt veremez."
+      ],
+      "result": "Perfect World sahadayken bile rakibin dokunulmaz Toon canavarlarını kural ve feda gücüyle doğrudan mezara gömüp sahayı temizleyen nihai çözüm."
+    },
+    {
+      "id": "aeg-24",
+      "category": "TOON Vs.",
+      "title": "TOON Vs. 3: Rakibin 'Toon Terror' Karşı Tuzağını Baypas Etme, Yemleme ve Kilitleme Taktikleri",
+      "cardsNeeded": [
+        "Super Polymerization",
+        "Dark Beckoning Beast",
+        "Soul Crossing",
+        "Cerulean Skyfire"
+      ],
+      "sequence": [
+        "Cerulean Skyfire",
+        "Dark Beckoning Beast",
+        "Super Polymerization",
+        "Soul Crossing"
+      ],
+      "difficulty": "İleri / Karşı Hamle ve Zincir Yönetimi",
+      "steps": [
+        "\"Toon Terror\" (Toon Terörü) kartı bir Karşı Tuzaktır (Counter Trap - Hız 3): Sahada Toon World varken sizin bir büyü, tuzak veya canavar efektinizi iptal edip yok eder. Turda 1 kez kullanılabilir. Bu tuzağı aşmanın 4 kesin stratejisi vardır:",
+        "STRATEJİ 1 (Zincirlenemez Kartlarla Baypas): \"Super Polymerization\" veya \"Inferno of the Sacred Beasts - Uria, Lord of Searing Flames\" kartlarının efektlerine hiçbir oyuncu kart veya efekt zincirleyemez kuralı vardır. Rakibin sahasında kapalı Toon Terror olsa dahi Karşı Tuzak BİLE AÇAMAZ; kilitlenir ve hamlenizi durduramaz!",
+        "STRATEJİ 2 (Tribute Kuralı ile Baypas): \"The Sun God's Steelcage - Lava Golem\" çağırmak zincir başlatan bir kart aktivasyonu değildir; oyun kuralı çağırmasıdır. Toon Terror yalnızca kart/efekt aktivasyonlarına tetiklendiği için Lava Golem sahaya inerken rakip Toon Terror'ü açamaz; canavarları gözünün önünde feda edilir!",
+        "STRATEJİ 3 (Yemleme / Baiting): Rakibin tek bir Toon Terror hakkı vardır. Elinizdeki ikincil kartları (\"Dark Beckoning Beast\" arama efekti, \"Sacred Beasts Released\" veya \"Joker's Straight\") ilk hamle olarak öne sürün. Rakip telaşla Toon Terror'ü bu yem karta harcadığında, asıl ölümcül kartınızı (\"Soul Crossing\", \"Lightning Storm\" veya \"The Immortal Sun God\") arkasından güvenle oynayın!",
+        "STRATEJİ 4 (Toon World'ü Önceden Düşürerek Şartı Bozma): Toon Terror'ün çalışması için rakibin sahada \"Toon World\" kontrol etmesi zorunludur. Eğer \"Cerulean Skyfire\" ile rakip Toon World'ü açtığı anda iptal ederseniz veya Uria ile yok ederseniz, rakibin sahadaki kapalı Toon Terror'ü aktivasyon şartını kaybeder ve tamamen işlevsiz (ölü kart) kalır!"
+      ],
+      "result": "Rakibin en güçlü savunma tuzağı olan Toon Terror'ü kurallarla felç eden, yemleyerek harcatan veya şartını bozarak etkisiz bırakan taktiksel rehber."
+    },
+    {
+      "id": "aeg-25",
+      "category": "TOON Vs.",
+      "title": "TOON Vs. 4: Slifer the Sky Dragon & Cerulean Skyfire ile Toon Sahasını Sürekli İnfaz ve Kilit Altına Alma",
+      "cardsNeeded": [
+        "Slifer The Sky Dragon GOD",
+        "Cerulean Skyfire",
+        "Hamon, Lord of Striking Thunder",
+        "Awakening of the Sacred Beasts"
+      ],
+      "sequence": [
+        "Hamon, Lord of Striking Thunder",
+        "Cerulean Skyfire",
+        "Slifer The Sky Dragon GOD",
+        "Awakening of the Sacred Beasts"
+      ],
+      "difficulty": "Orta / Tam Saha Kilidi",
+      "steps": [
+        "Rakip Toon destesi sahaya canavar çağırmaya ve sürekli arama büyüsü yapmaya mecburdur. Bu mekanizmayı iki kartla felç edin:",
+        "SLIFER İNFAZ ETKİSİ: Sahaya \"Slifer The Sky Dragon GOD\" indirin. Slifer sahada açıkken rakip ne zaman bir canavar çağırsa (Özel veya Normal), Slifer o canavarın ATK'sini anında 2000 puan düşürür; eğer ATK 0 olursa o canavar HEMEN YOK EDİLİR! Toon Harpie Lady, Toon Mermaid, Toon Cannon Soldier ve Toon Dark Magician Girl gibi kritik Toon canavarları sahaya ayak bastıkları anda 0 ATK olup anında patlar!",
+        "SKYFIRE BÜYÜ KİLİDİ: Sahada Hamon varken \"Cerulean Skyfire\" açık kalsın. Rakibin Toon Bookmark, Toon Table of Contents veya Toon World açma girişimleri turda bir kez otomatikman yok edilir.",
+        "AWAKENING KİLİDİ: Sahada 2 farklı Kutsal Canavar varken \"Awakening of the Sacred Beasts\" açık olursa, rakibin sahaya çağırdığı canavarların efektleri otomatik olarak geçersiz kılınır."
+      ],
+      "result": "Rakibin Toon çağırma motorunu sahaya çıktığı anda imha eden, büyü aramalarını Skyfire ile kesen ve Toon destesini kımıldayamaz hale getiren mutlak kontrol."
     }
   ],
   "blue-eyes": [

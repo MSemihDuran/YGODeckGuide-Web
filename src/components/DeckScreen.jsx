@@ -336,16 +336,40 @@ export default function DeckScreen({ deckId, deckName }) {
           Bu deste için henüz özel kombo rehberi eklenmedi.
         </div>
       ) : (
-        combos.map((combo, idx) => (
-          <div
-            key={combo.id || idx}
-            className="bg-slate-800/90 border border-slate-700/80 rounded-2xl p-5 sm:p-6 shadow-xl space-y-4"
-          >
-            {/* Header */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-700/80 pb-3">
-              <h4 className="text-white font-bold text-base sm:text-lg">
-                {combo.title}
-              </h4>
+        combos.map((combo, idx) => {
+          const prevCategory = idx > 0 ? combos[idx - 1].category : null;
+          const showCategoryHeader = Boolean(combo.category && combo.category !== prevCategory);
+
+          return (
+            <React.Fragment key={combo.id || idx}>
+              {showCategoryHeader && (
+                <div className="bg-gradient-to-r from-red-950/80 via-amber-950/50 to-slate-900 border border-amber-500/40 rounded-2xl p-5 shadow-2xl space-y-2 mt-8 mb-4">
+                  <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-500/20 text-amber-300 font-bold text-xs rounded-full border border-amber-500/40">
+                    ⚔️ {combo.category}
+                  </div>
+                  <h4 className="text-white font-bold text-base sm:text-lg">
+                    {combo.category === 'TOON Vs.' ? 'TOON Vs. - Anti-Toon Özel Çözüm & Karşı Strateji Rehberi' : combo.category}
+                  </h4>
+                  <p className="text-slate-300 text-xs sm:text-sm">
+                    {combo.category === 'TOON Vs.'
+                      ? 'Rakibin dokunulmaz Toon canavarlarını, Perfect World saha büyüsünü ve Toon Terror tuzaklarını alt etme adımları:'
+                      : 'Özel stratejiler ve hamle sıralamaları:'}
+                  </p>
+                </div>
+              )}
+              <div className="bg-slate-800/90 border border-slate-700/80 rounded-2xl p-5 sm:p-6 shadow-xl space-y-4">
+                {/* Header */}
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-700/80 pb-3">
+                  <div>
+                    {combo.category && (
+                      <span className="inline-block text-amber-400 font-bold text-xs mb-1">
+                        ⚔️ {combo.category}
+                      </span>
+                    )}
+                    <h4 className="text-white font-bold text-base sm:text-lg">
+                      {combo.title}
+                    </h4>
+                  </div>
               {combo.difficulty && (
                 <span
                   className={`self-start sm:self-auto text-xs font-bold px-2.5 py-1 rounded-full border ${
@@ -449,9 +473,10 @@ export default function DeckScreen({ deckId, deckName }) {
                 </p>
               </div>
             )}
-          </div>
-        ))
-      )}
+            </div>
+          </React.Fragment>
+        );
+      }))}
     </div>
   );
 
